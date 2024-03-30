@@ -1,0 +1,38 @@
+.dashboard_container {
+    width: 100%;
+}
+
+.top_section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.bottom_section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.top-expenses{
+    width: 50%;
+}
+
+@media (max-width:1020px) {
+    .top_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .income_card{
+        margin: 1rem 0;
+    }
+    .bottom_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-expenses{
+        width: 100%;
+    }
+}
